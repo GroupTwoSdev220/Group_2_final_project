@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block title  %}
+    Home
+{% endblock  %}
+
+{% block content%}
+<h1>The Goat Import</h1>
+<p> Check out our <a href = "{% url 'posts:list' %}">Inventory</a>! </p>
+{% endblock %}
